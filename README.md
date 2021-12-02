@@ -13,7 +13,7 @@
 
 ## **Available Options :**
   * **[Latest](https://github.com/NebulaBC/vubuntu/):** Full version of vubuntu with utilities, additional installed languages (Java & Go) & optional packages.
-  * **[Minimal](https://github.com/vital987/vubuntu/tree/minimal):** Minimal version with only required packages, see next section for more info.
+  * **[Minimal](https://github.com/NebulaBC/vubuntu/tree/minimal):** Minimal version with only required packages, see next section for more info.
   * **[PureVNC](https://github.com/vital987/vubuntu/tree/purevnc):** Full, direct VNC access without noVNC.
   * **[PureVNC-Minimal](https://github.com/vital987/vubuntu/tree/purevnc):** Minimal, direct VNC access without noVNC.
 
