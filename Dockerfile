@@ -35,7 +35,7 @@ RUN apt-get update && \
 #Basic Packages
     tzdata software-properties-common apt-transport-https wget zip unzip htop git curl vim nano zip sudo net-tools x11-utils eterm iputils-ping build-essential xvfb x11vnc supervisor \
 #GUI Utilities
-    gnome-terminal gnome-calculator gnome-system-monitor pcmanfm terminator firefox \
+    tmux lynx gnome-calculator gnome-system-monitor pcmanfm terminator firefox \
 #Python
     python3 python3-pip python-is-python3 \
 #Java
@@ -87,13 +87,6 @@ RUN apt-get update && \
     echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|tee /etc/apt/sources.list.d/brave-browser-release.list && \
 #PeaZip - source
     wget https://github.com/peazip/PeaZip/releases/download/8.2.0/peazip_8.2.0.LINUX.GTK2-1_amd64.deb -P /tmp && \
-#Sublime - source
-    curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | apt-key add - && \
-    add-apt-repository "deb https://download.sublimetext.com/ apt/stable/" && \
-#Telegram - source
-    wget https://updates.tdesktop.com/tlinux/tsetup.3.2.2.tar.xz -P /tmp && \
-    tar -xvf /tmp/tsetup.3.2.2.tar.xz -C /tmp && \
-    mv /tmp/Telegram/Telegram /usr/bin/telegram && \
 #PowerShell - source
     wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -P /tmp && \
 #Installation
